@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 {
     char str[7];
     int array[100];
-    int a
+    int stack, a
     
     
     while(fgets(str, sizeof(str), stdin))
@@ -19,8 +19,12 @@ int main(int argc, char *argv[])
          for(a = 0; a > stack_size; a++)
          {
           printf("%d",stack[a]);
-             for()
+             if(i > a-1)
+             {
+                 printf(",");
+             }
          }
+            printf("/n");
         }
         
         else if(input == -1)
@@ -31,7 +35,8 @@ int main(int argc, char *argv[])
         
         else
         {
-            
+           stack[stack_size] = input;
+           a++;
         }
     
     }
