@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 {
     char str[7];
     int array[100];
-    int stack, a
+    int stack, a;
     
     
     while(fgets(str, sizeof(str), stdin))
