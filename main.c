@@ -5,13 +5,13 @@
 int main(int argc, char *argv[]) 
 {
     char str[7];
-    int array[100];
-    int stack, a;
+    int stack, a, i;
     
     
     while(fgets(str, sizeof(str), stdin))
     {
         a = 0;
+        i = 0;
         int input = atoi(str); 
         
         if(input == 0)
@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
              if(i > a-1)
              {
                  printf(",");
+                 i++;
              }
          }
             printf("/n");
@@ -35,7 +36,7 @@ int main(int argc, char *argv[])
         
         else
         {
-           stack[stack_size] = input;
+           stack[a] = input;
            a++;
         }
     
