@@ -28,14 +28,15 @@ int main(int argc, char *argv[])
             printf("/n");
         }
         
-        else if(input == -1)
+        if(input == -1)
         {
             printf("%d\n",stack[a]);
             a--;
         }
         
-        else
+        if(inpit => -1 && 100 =< input)
         {
+          
            stack[a] = input;
            a++;
         }
